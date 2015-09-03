@@ -22,10 +22,18 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoiY21vcyIsImEiOiJmZWIyMjVmNjZmZGNmY2ZhMTYwMDZhZWE4ZGFhZDEzOSJ9._m6I8NsoVMvr2iC5kamGtA</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need data to track your run!</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string></string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
