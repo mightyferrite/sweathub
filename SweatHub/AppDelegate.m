@@ -32,11 +32,12 @@
         //NSLog(@"Runs: %@", [runs valueForKey:@"runs"]);
     }
     
+        
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    UINavigationController *navController=[[UINavigationController alloc]initWithRootViewController:self.homeViewController];
-    self.window.rootViewController = navController; //self.homeViewController;
+    UINavigationController *navController=[[UINavigationController alloc] initWithRootViewController:self.homeViewController];
+    self.window.rootViewController = navController;
     self.homeViewController.managedObjectContext = self.managedObjectContext;
     [self.window makeKeyAndVisible];
     

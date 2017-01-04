@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapboxGL/MapboxGL.h>
+#import "Mapbox.h"
 #import "Run.h"
 #import "Location.h"
 #import "RunsTableViewController.h"
@@ -41,5 +41,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andContext:(NSManagedObjectContext *)ctx;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andContext:(NSManagedObjectContext *)ctx andTimeStamp:(NSString *)timestamp;
+
+
 @end
 

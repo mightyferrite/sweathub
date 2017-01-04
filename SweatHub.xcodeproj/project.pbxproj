@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A67261C6664CC489DAF82BBC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F54649E257CDB97C6126DB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B21524261B9814E9000AB050 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21524251B9814E9000AB050 /* LoginWithAmazon.framework */; };
+		B21524281B981540000AB050 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21524271B981540000AB050 /* Security.framework */; };
 		B21B94EF1B86F49000DA2A66 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = B21B94EE1B86F49000DA2A66 /* Run.m */; };
 		B21B94F21B86F49100DA2A66 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B21B94F11B86F49100DA2A66 /* Location.m */; };
 		B21B94F51B86F4D000DA2A66 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21B94F41B86F4D000DA2A66 /* MathController.m */; };
 		B21B94F71B86F72100DA2A66 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B21B94F61B86F72100DA2A66 /* Settings.bundle */; };
+		B223D01C1BBCF6D0000145FB /* landscape-78058_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B223D01B1BBCF6D0000145FB /* landscape-78058_1280.jpg */; };
 		B23309411B925BB400D5AEDE /* RunsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B233093F1B925BB400D5AEDE /* RunsTableViewController.m */; };
 		B23309421B925BB400D5AEDE /* RunsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23309401B925BB400D5AEDE /* RunsTableViewController.xib */; };
 		B23309461B92632C00D5AEDE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23309441B92632C00D5AEDE /* HomeViewController.m */; };
@@ -19,8 +22,10 @@
 		B23309491B92AE5D00D5AEDE /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23309481B92AE5D00D5AEDE /* MapViewController.xib */; };
 		B233094D1B92C14500D5AEDE /* 2015-06-27 10.28.53_post_running_sammee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B233094B1B92C14500D5AEDE /* 2015-06-27 10.28.53_post_running_sammee.jpg */; };
 		B23309501B92C28900D5AEDE /* shoes_post_running_Sammee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B233094F1B92C28900D5AEDE /* shoes_post_running_Sammee.jpg */; };
-		B23309521B93700B00D5AEDE /* nyc_skyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23309511B93700B00D5AEDE /* nyc_skyline.jpg */; };
 		B23309541B93E3DF00D5AEDE /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = B23309531B93E3DF00D5AEDE /* MulticolorPolylineSegment.m */; };
+		B239D0601BF023CF00F06CC8 /* TodaysWorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D05E1BF023CF00F06CC8 /* TodaysWorkoutViewController.m */; };
+		B239D0611BF023CF00F06CC8 /* TodaysWorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B239D05F1BF023CF00F06CC8 /* TodaysWorkoutViewController.xib */; };
+		B2A16CB41BB90E0B000C8839 /* single_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2A16CB31BB90E0B000C8839 /* single_tree.jpg */; };
 		B2D845081B8A7E6C0035E5BC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D845061B8A7E6C0035E5BC /* MapViewController.m */; };
 		B2D845091B8A7E6C0035E5BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D845071B8A7E6C0035E5BC /* ViewController.xib */; };
 		B2DD124D1B86E66800E30998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD124C1B86E66800E30998 /* main.m */; };
@@ -43,6 +48,8 @@
 /* Begin PBXFileReference section */
 		534206F73AD4F6ECAFCE424D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		64F54649E257CDB97C6126DB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21524251B9814E9000AB050 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		B21524271B981540000AB050 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B21B94ED1B86F49000DA2A66 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 		B21B94EE1B86F49000DA2A66 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
 		B21B94F01B86F49100DA2A66 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 		B21B94F31B86F4D000DA2A66 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
 		B21B94F41B86F4D000DA2A66 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
 		B21B94F61B86F72100DA2A66 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B223D01B1BBCF6D0000145FB /* landscape-78058_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "landscape-78058_1280.jpg"; sourceTree = "<group>"; };
 		B233093E1B925BB400D5AEDE /* RunsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsTableViewController.h; sourceTree = "<group>"; };
 		B233093F1B925BB400D5AEDE /* RunsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsTableViewController.m; sourceTree = "<group>"; };
 		B23309401B925BB400D5AEDE /* RunsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunsTableViewController.xib; sourceTree = "<group>"; };
@@ -59,14 +67,18 @@
 		B23309481B92AE5D00D5AEDE /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		B233094B1B92C14500D5AEDE /* 2015-06-27 10.28.53_post_running_sammee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2015-06-27 10.28.53_post_running_sammee.jpg"; sourceTree = "<group>"; };
 		B233094F1B92C28900D5AEDE /* shoes_post_running_Sammee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes_post_running_Sammee.jpg; sourceTree = "<group>"; };
-		B23309511B93700B00D5AEDE /* nyc_skyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc_skyline.jpg; sourceTree = "<group>"; };
 		B23309531B93E3DF00D5AEDE /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
 		B23309551B93E3F500D5AEDE /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		B239D05D1BF023CF00F06CC8 /* TodaysWorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaysWorkoutViewController.h; sourceTree = "<group>"; };
+		B239D05E1BF023CF00F06CC8 /* TodaysWorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysWorkoutViewController.m; sourceTree = "<group>"; };
+		B239D05F1BF023CF00F06CC8 /* TodaysWorkoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodaysWorkoutViewController.xib; sourceTree = "<group>"; };
+		B2A16CB31BB90E0B000C8839 /* single_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = single_tree.jpg; sourceTree = "<group>"; };
+		B2A16CB51BB90EFA000C8839 /* ProjectInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectInclude.h; sourceTree = "<group>"; };
 		B2B6B8722478E28B17D39C3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B2D845051B8A7E6C0035E5BC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		B2D845061B8A7E6C0035E5BC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		B2D845071B8A7E6C0035E5BC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		B2DD12471B86E66800E30998 /* sammee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sammee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DD12471B86E66800E30998 /* SweatHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweatHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DD124B1B86E66800E30998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2DD124C1B86E66800E30998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2DD124E1B86E66800E30998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21524281B981540000AB050 /* Security.framework in Frameworks */,
+				B21524261B9814E9000AB050 /* LoginWithAmazon.framework in Frameworks */,
 				A67261C6664CC489DAF82BBC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,11 +123,24 @@
 		B233094A1B92C0B600D5AEDE /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B23309511B93700B00D5AEDE /* nyc_skyline.jpg */,
+				B223D01B1BBCF6D0000145FB /* landscape-78058_1280.jpg */,
+				B2A16CB31BB90E0B000C8839 /* single_tree.jpg */,
 				B233094F1B92C28900D5AEDE /* shoes_post_running_Sammee.jpg */,
 				B233094B1B92C14500D5AEDE /* 2015-06-27 10.28.53_post_running_sammee.jpg */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		B2BFF3951BBB90230001AAF3 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				B239D05F1BF023CF00F06CC8 /* TodaysWorkoutViewController.xib */,
+				B23309451B92632C00D5AEDE /* HomeViewController.xib */,
+				B2D845071B8A7E6C0035E5BC /* ViewController.xib */,
+				B23309481B92AE5D00D5AEDE /* MapViewController.xib */,
+				B23309401B925BB400D5AEDE /* RunsTableViewController.xib */,
+			);
+			name = xibs;
 			sourceTree = "<group>";
 		};
 		B2DD123E1B86E66800E30998 = {
@@ -130,7 +157,7 @@
 		B2DD12481B86E66800E30998 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2DD12471B86E66800E30998 /* sammee.app */,
+				B2DD12471B86E66800E30998 /* SweatHub.app */,
 				B2DD12631B86E66800E30998 /* SweatHubTests.xctest */,
 			);
 			name = Products;
@@ -146,17 +173,17 @@
 				B23309441B92632C00D5AEDE /* HomeViewController.m */,
 				B2D845051B8A7E6C0035E5BC /* MapViewController.h */,
 				B2D845061B8A7E6C0035E5BC /* MapViewController.m */,
+				B239D05D1BF023CF00F06CC8 /* TodaysWorkoutViewController.h */,
+				B239D05E1BF023CF00F06CC8 /* TodaysWorkoutViewController.m */,
 				B233093E1B925BB400D5AEDE /* RunsTableViewController.h */,
 				B233093F1B925BB400D5AEDE /* RunsTableViewController.m */,
 				B23309531B93E3DF00D5AEDE /* MulticolorPolylineSegment.m */,
 				B23309551B93E3F500D5AEDE /* MulticolorPolylineSegment.h */,
+				B2A16CB51BB90EFA000C8839 /* ProjectInclude.h */,
+				B2BFF3951BBB90230001AAF3 /* xibs */,
 				B2DD124A1B86E66800E30998 /* Supporting Files */,
 				B2DD125A1B86E66800E30998 /* Images.xcassets */,
 				B2DD12511B86E66800E30998 /* SweatHub.xcdatamodeld */,
-				B23309451B92632C00D5AEDE /* HomeViewController.xib */,
-				B2D845071B8A7E6C0035E5BC /* ViewController.xib */,
-				B23309481B92AE5D00D5AEDE /* MapViewController.xib */,
-				B23309401B925BB400D5AEDE /* RunsTableViewController.xib */,
 				B21B94F61B86F72100DA2A66 /* Settings.bundle */,
 			);
 			path = SweatHub;
@@ -197,6 +224,8 @@
 		FB70B25F05AE778CB4B23815 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B21524271B981540000AB050 /* Security.framework */,
+				B21524251B9814E9000AB050 /* LoginWithAmazon.framework */,
 				64F54649E257CDB97C6126DB /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -222,7 +251,7 @@
 			);
 			name = SweatHub;
 			productName = SweatHub;
-			productReference = B2DD12471B86E66800E30998 /* sammee.app */;
+			productReference = B2DD12471B86E66800E30998 /* SweatHub.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B2DD12621B86E66800E30998 /* SweatHubTests */ = {
@@ -254,6 +283,7 @@
 				TargetAttributes = {
 					B2DD12461B86E66800E30998 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M5M35APE2Y;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -290,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23309521B93700B00D5AEDE /* nyc_skyline.jpg in Resources */,
+				B239D0611BF023CF00F06CC8 /* TodaysWorkoutViewController.xib in Resources */,
 				B2D845091B8A7E6C0035E5BC /* ViewController.xib in Resources */,
 				B21B94F71B86F72100DA2A66 /* Settings.bundle in Resources */,
 				B23309421B925BB400D5AEDE /* RunsTableViewController.xib in Resources */,
@@ -298,7 +328,9 @@
 				B23309501B92C28900D5AEDE /* shoes_post_running_Sammee.jpg in Resources */,
 				B2DD125B1B86E66800E30998 /* Images.xcassets in Resources */,
 				B233094D1B92C14500D5AEDE /* 2015-06-27 10.28.53_post_running_sammee.jpg in Resources */,
+				B2A16CB41BB90E0B000C8839 /* single_tree.jpg in Resources */,
 				B23309471B92632C00D5AEDE /* HomeViewController.xib in Resources */,
+				B223D01C1BBCF6D0000145FB /* landscape-78058_1280.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +401,7 @@
 				B2DD12531B86E66800E30998 /* SweatHub.xcdatamodeld in Sources */,
 				B23309541B93E3DF00D5AEDE /* MulticolorPolylineSegment.m in Sources */,
 				B23309411B925BB400D5AEDE /* RunsTableViewController.m in Sources */,
+				B239D0601BF023CF00F06CC8 /* TodaysWorkoutViewController.m in Sources */,
 				B21B94EF1B86F49000DA2A66 /* Run.m in Sources */,
 				B23309461B92632C00D5AEDE /* HomeViewController.m in Sources */,
 				B21B94F21B86F49100DA2A66 /* Location.m in Sources */,
@@ -416,6 +449,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -460,6 +494,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -483,9 +518,17 @@
 			baseConfigurationReference = 534206F73AD4F6ECAFCE424D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: john@johnreine.com (7N469LFHDC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SweatHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = sammee;
+				PRODUCT_NAME = SweatHub;
+				PROVISIONING_PROFILE = "62606245-4632-4ddb-8e9b-b1958f37489d";
 			};
 			name = Debug;
 		};
@@ -494,9 +537,17 @@
 			baseConfigurationReference = B2B6B8722478E28B17D39C3C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: john@johnreine.com (7N469LFHDC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SweatHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = sammee;
+				PRODUCT_NAME = SweatHub;
+				PROVISIONING_PROFILE = "62606245-4632-4ddb-8e9b-b1958f37489d";
 			};
 			name = Release;
 		};

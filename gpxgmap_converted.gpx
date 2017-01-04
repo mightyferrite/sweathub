@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <copyright>Map data copyright 2015 Google</copyright>
+    <time>2015-08-20T05:35:47Z</time>
+  </metadata>
+  <wpt lat="40.7279208" lon="-73.7736449">
+    <name>196-10 Union Turnpike</name>
+    <desc>196-10 Union Turnpike, Flushing, NY 11366, USA</desc>
+  </wpt>
+  <wpt lat="40.7126989" lon="-73.7875709">
+    <name>175-20 Wexford Terrace</name>
+    <desc>175-20 Wexford Terrace, Jamaica, NY 11432, USA</desc>
+  </wpt>
+<rte>
+  <name>196-10 Union Turnpike to 175-20 Wexford Terrace</name>
+  <rtept lat="40.7279208" lon="-73.7736449">
+    <name>196-10 Union Turnpike</name>
+  </rtept>
+  <rtept lat="40.7280101" lon="-73.773763">
+    <name>RP001</name>
+  </rtept>
+  <rtept lat="40.7284526" lon="-73.7763774">
+    <name>RP002</name>
+  </rtept>
+  <rtept lat="40.7283657" lon="-73.7766892">
+    <name>RP003</name>
+  </rtept>
+  <rtept lat="40.7268083" lon="-73.775937">
+    <name>RP004</name>
+  </rtept>
+  <rtept lat="40.7258195" lon="-73.7795576">
+    <name>RP005</name>
+  </rtept>
+  <rtept lat="40.7249677" lon="-73.7790719">
+    <name>RP006</name>
+  </rtept>
+  <rtept lat="40.7219265" lon="-73.7840737">
+    <name>RP007</name>
+  </rtept>
+  <rtept lat="40.7163656" lon="-73.7842967">
+    <name>RP008</name>
+  </rtept>
+  <rtept lat="40.7128418" lon="-73.7871012">
+    <name>RP009</name>
+  </rtept>
+  <rtept lat="40.7126989" lon="-73.7875709">
+    <name>175-20 Wexford Terrace</name>
+  </rtept>
+</rte>
+</gpx>

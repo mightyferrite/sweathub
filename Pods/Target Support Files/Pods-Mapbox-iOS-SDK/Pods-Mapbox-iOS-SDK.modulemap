@@ -1,0 +1,6 @@
+framework module Mapbox {
+  umbrella header "Pods-Mapbox-iOS-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

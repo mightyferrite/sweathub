@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>URL Schemes</key>
+	<string>amzn-sammeesometimes.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<key>URL Identifier</key>
+	<string>sammeesometimes.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmEzODJjMWYyY2IwNDQ4MWQ4MWI2MzJiNzA2ZDE4OTBmIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi5mMDY0MmMxYmYyNzQ0NmI3OTA4NmMwNTY4NjAzOGI1NCIsImJ1bmRsZVNlZWRJZCI6InNhbW1lZXNvbWV0aW1lcy5zYW1tZWUiLCJidW5kbGVJZCI6InNhbW1lZXNvbWV0aW1lcy5zYW1tZWUiLCJpc3MiOiJBbWF6b24iLCJ0eXBlIjoiQVBJS2V5IiwiYXBwVmFyaWFudElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50Ljk4MzU3OTU1YmY4YzRhMjJiZGJiN2I2MTU5MTA0MGRiIiwidHJ1c3RQb29sIjpudWxsLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC45ODM1Nzk1NWJmOGM0YTIyYmRiYjdiNjE1OTEwNDBkYiIsImlkIjoiMjc0MTc2ODgtNTFmZi0xMWU1LTlmZTAtYzM0ZjBkYjAwMmUzIiwiaWF0IjoiMTQ0MTI1OTIwMjIwOSJ9.L9JNYNGeHqjJHaIcS0Amd1EBoe1ebpMHI385I99sajLNZpXuRAKgy0MaoDFhBcSTMQJbv1XjNdr+fCvtJKRgtFpr9k13dk3ZGQeplZeZq3swYTebZqqHs61CgzZnx/I60LG0hscjYKFyhc4U/vGE/VcKgO12XkGSYPqzyWjQQ6Rj9f3NbXHFZLZRwY2kSDXpQkvVsKMrBT1EjzeTlxd6RYE+Cb5DDLn4sdabKqE5EhaJ6HZNYZpOLg7/Qy488Kd+OefZXS6s3BPds2mnXoA02N8P2yeGeCGg23tdj1n4vlai8k74v7ma2KLd8yGc0C63T3mb976IIuPS+KQmLWruhQ==</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -41,8 +47,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

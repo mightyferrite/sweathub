@@ -122,7 +122,7 @@
     [pastRunsButton setBackgroundColor:[UIColor greenColor]];
     //hideButton.translatesAutoresizingMaskIntoConstraints = NO;
     pastRunsButton.autoresizingMask = UIViewAutoresizingNone;
-    pastRunsButton.hidden = true;
+    pastRunsButton.hidden = false;
     w = 120.0;
     h = 40.0;
     pastRunsButton.frame = CGRectMake([self getX:50.0] - (w/2), [self getY:90.0] - h/2, w, h);
